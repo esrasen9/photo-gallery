@@ -1,0 +1,65 @@
+.photo-container {
+    display: grid;
+}
+
+.photo {
+    cursor: pointer;
+    margin: 0 auto 5px;
+    object-fit: cover;
+}
+
+.post-photo {
+    cursor: inherit;
+}
+
+@media (max-width: 800px){
+    .photo {
+        width: 90vw;
+        height: 75vh;
+    }
+    .photo-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+@media (min-width: 800px){
+    .photo {
+        width: 45vw;
+        height: 50vh;
+    }
+    .photo-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media (min-width: 1200px){
+    .photo {
+        width: 400px;
+        height: 50vh;
+    }
+    .photo-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+
+@media (min-width: 1600px){
+    .photo-container {
+        grid-template-columns: repeat(4,1fr);
+    }
+
+}
+
+@media (min-width: 1700px){
+    .photo {
+        width: 19vw;
+        height: 50vh
+    }
+    .photo-container {
+        grid-template-columns: repeat(5,1fr);
+    }
+
+}

@@ -1,0 +1,20 @@
+
+.posts {
+    padding-top: 14px;
+}
+
+.post {
+    margin: 0 auto 20px;
+    border: 1px solid lightgray;
+    padding-bottom: 8px;
+}
+
+.caption {
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.caption-text {
+    font-weight: normal;
+    opacity: 0.8;
+}

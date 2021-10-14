@@ -1,0 +1,53 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 14vh;
+    padding: 10px;
+}
+
+.nav-logo {
+    width: 110px;
+    padding: 5px;
+}
+
+.nav-route-items {
+    display: flex;
+    margin: 40px 10px;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+
+.nav-route-item {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #6f4293;
+}
+
+.nav-search-item {
+    text-decoration: none;
+}
+
+.search-input {
+    width: 50vw;
+    padding: 10px;
+    border: 1px solid #6f4293;
+    border-radius: 5px
+}
+
+.nav-logout-icon {
+    color: #6f4293;
+    margin-bottom: 5px;
+    width: 35px;
+}
+
+.nav-logout-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-plus-button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
